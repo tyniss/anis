@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(a.jpg);
+    background-color: azure;
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 800px; /* Adjusted width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 30px;
+    background-color: #fff;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+nav {
+    background-color: rgb(18, 97, 121);
+    color: white;
+    width: 200px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 15px 0; /* Vertical margin for spacing */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+.content {
+    flex: 1;
+    text-align: left; /* Adjusted alignment for better readability */
+    margin-left: 20px; /* Space between nav and content */
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    /* Remove border-radius to make it square */
+    overflow: hidden; /* Hide any overflow */
+    transition: border 0.3s ease; /* Transition effect for border change */
+}
+
+.profile-image img:hover {
+    border: 5px solid rgb(18, 97, 121); /* Add border on hover */
+}
+
+.header-content {
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 20px; /* Adjusted size for consistency */
+    height: 20px;
+    margin: 0 5px;
+}
+
+.social-icons a {
+    color: #333;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #927a7a;
+}
+
+footer {
+    background-color: rgb(18, 97, 121);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 28px; /* Increased font size for the name */
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+    color: rgb(18, 97, 121); /* Changed color for emphasis */
+}
+
+p {
+    margin: 5px 0; /* Adjusted spacing between paragraphs */
+}
+
+.resume-header {
+    background-color: rgb(18, 97, 121);
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

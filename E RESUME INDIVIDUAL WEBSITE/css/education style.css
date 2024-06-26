@@ -1,0 +1,120 @@
+  /* General styling */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(a.jpg); /* Ganti dengan gambar latar belakang yang sesuai */
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Menyusun dalam satu baris */
+    justify-content: space-between; /* Membuat jarak antara navigasi dan konten */
+    width: 100%;
+    max-width: 1225px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    flex: 1;
+}
+
+.header-footer {
+    background-color: rgb(18, 97, 121);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center; /* Tengahkan teks */
+    align-items: center;
+}
+
+.header-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-footer a:hover {
+    color: #007BFF; /* Ubah warna menjadi biru saat dihover */
+}
+
+.navigation {
+    background-color: rgb(18, 97, 121);
+    color: white;
+    width: 200px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation ul li {
+    margin: 15px 0;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover {
+    color: #007BFF;
+}
+
+.content {
+    width: calc(100% - 260px); /* Lebar konten = 100% - lebar navigasi */
+    margin-left: 20px; /* Jarak antara navigasi dan konten */
+}
+
+.section {
+    width: 100%; /* Lebar maksimum untuk bagian */
+    padding: 20px; /* Padding untuk penataan konten */
+    box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar */
+    text-align: center; /* Pusatkan teks dan gambar */
+    background-color: #f9f9f9; /* Warna latar belakang untuk bagian */
+    margin-bottom: 20px; /* Spasi bawah antara setiap bagian */
+    border-radius: 5px; /* Sudut melengkung untuk bagian */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk setiap bagian */
+}
+
+.section img {
+    width: 100px; /* Sesuaikan ukuran logo */
+    height: auto; /* Pertahankan rasio aspek */
+    margin-top: 10px; /* Jarak antara teks dan gambar */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #000;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: rgb(18, 97, 121);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+h1, p1 {
+    margin: 0;
+    padding: 5px 0;
+}
+
+p1 {
+    display: block;
+}

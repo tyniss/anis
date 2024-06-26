@@ -1,0 +1,109 @@
+   /* General styling */
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(a.jpg); /* Replace with your actual image */
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.header-footer {
+    background-color: rgb(18, 97, 121);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.header-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px; /* Set medium size for Home link */
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav {
+    background-color: rgb(18, 97, 121);
+    color: white;
+    width: 200px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+.content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc; /* Light gray line */
+    margin: 20px 0; /* Spacing around the hr */
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 28px;
+    color: rgb(18, 97, 121);
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6; /* Improved readability with increased line height */
+}
+
+p strong {
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(18, 97, 121);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px; /* Rounded corners, bottom only */
+}
